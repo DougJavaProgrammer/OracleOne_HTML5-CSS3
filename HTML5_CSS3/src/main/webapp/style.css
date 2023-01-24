@@ -1,18 +1,19 @@
-body{
+body {
 	font-family: 'Montserrat', sans-serif;
 }
 
 header {
-	background: #BBBBBB;	
+	background: #BBBBBB;
 	padding: 20px 0;
 }
-.caixa{
+
+.caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
 }
 
-nav{
+nav {
 	position: absolute;
 	top: 110px;
 	right: 110px;
@@ -21,7 +22,6 @@ nav{
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
-	
 }
 
 nav a {
@@ -30,15 +30,13 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
-	
 }
 
 /*ação ao passar o mouse por cima dos menus do cabeçalho*/
-nav a:hover{
+nav a:hover {
 	color: red;
 	text-decoration: underline;
 }
-
 
 .produtos {
 	width: 940px;
@@ -54,57 +52,55 @@ nav a:hover{
 	/*background: #CCCCCC;*/
 	margin: 0 1.5%;
 	padding: 30px 20px;
- 	box-sizing: border-box;
- 	/*border-color: #000000;
+	box-sizing: border-box;
+	/*border-color: #000000;
  	border-width: 2px;
  	border-style: solid; */
- 	border: 2px solid #000000;
- 	border-top: 8px solid #000000;
- 	border-radius: 10px;
- 	 	 
-}
-.produtos li:hover{
-	border-color: red;	
+	border: 2px solid #000000;
+	border-top: 8px solid #000000;
+	border-radius: 10px;
 }
 
-.produtos li:active{
+.produtos li:hover {
+	border-color: red;
+}
+
+.produtos li:active {
 	border-color: green;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
 	font-size: 34px;
 }
 
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produto-descricao{
- 	font-size: 18px; 	 	
-  }
+.produto-descricao {
+	font-size: 18px;
+}
 
-.produto-preco{
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 20px;
 }
 
 footer {
-	text-align: center;	
+	text-align: center;
 	background: url("Imagens/bg.jpg");
 	padding: 40px 0;
 }
 
-.copyright{
+.copyright {
 	color: white;
 	font-size: 13px;
 	margin-top: 20px;
-	
 }
 
 main {
-	
 	
 }
 
@@ -117,19 +113,19 @@ form label, form legend {
 	font-size: 20px;
 	margin: 10px 0;
 }
- 
-.input-padrao{
+
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
-} 
+}
 
-.checkbox{
+.checkbox {
 	margin: 20px 0;
 }
 
-.enviar{
+.enviar {
 	width: 40%;
 	padding: 15px 0;
 	background-color: orange;
@@ -148,7 +144,7 @@ form label, form legend {
 	transition: 1s;
 }
 
-table{
+table {
 	margin: 20px 0 40px;
 }
 
@@ -164,11 +160,11 @@ td, th {
 }
 
 /*CSS da página inicial*/
-.banner{
+.banner {
 	width: 100%;
 }
 
-.titulo-principal{
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
@@ -181,22 +177,22 @@ td, th {
 	font-weight: bold;
 }
 */
-
-.titulo-principal:before{
+.titulo-principal:before {
 	content: "[ "
 }
 
-.titulo-principal:after{
+.titulo-principal:after {
 	content: "] "
 }
-.principal{
+
+.principal {
 	padding: 3em 0;
 	background: #FEFEFE;
 	width: 940px;
 	margin: 0 auto;
 }
 
-.principal p{
+.principal p {
 	margin: 0 0 1em;
 }
 
@@ -204,11 +200,11 @@ td, th {
 	font-weight: bold;
 }
 
-.principal em{
+.principal em {
 	font-style: italic;
 }
 
-.utensilios{
+.utensilios {
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
@@ -216,10 +212,10 @@ td, th {
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE,#888888);
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
-.mapa-conteudo{
+.mapa-conteudo {
 	width: 940px;
 	margin: 0 auto;
 }
@@ -229,45 +225,45 @@ td, th {
 	text-align: center;
 }
 
-.beneficios{
+.beneficios {
 	padding: 3em 0;
 	background: #888888;
 }
-.conteudo-beneficios{
+
+.conteudo-beneficios {
 	width: 640px;
 	margin: 0 auto;
 }
 
-.lista-beneficios{
+.lista-beneficios {
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.itens{
+.itens {
 	line-height: 1.5;
 }
 
-.itens:before{
+.itens:before {
 	content: "\2605  ";
-	
 }
 
 /*Pseudo elemento (first child): pega o primeiro elemento da minha lista*/
 /*tambem existe o last child (pega o ultimo)*/
 /*e ainda tem o nth-child() (que pega qualquer posição da lista, declarando o numero dentro do parenteses*/
-.itens:first-child{
+.itens:first-child {
 	font-weight: bold;
 }
 
-.imagem-beneficios{
+.imagem-beneficios {
 	width: 60%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 30px #000000;
 }
 
-.imagem-beneficios:hover{
+.imagem-beneficios:hover {
 	opacity: 0.3;
 }
 
@@ -276,3 +272,18 @@ td, th {
 	margin: 2em auto;
 }
 
+/*adaptando o CSS para a tela de celular com maximo de 480px*/
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+		width: 90%;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios{
+		width: 90%;
+	}
+}
